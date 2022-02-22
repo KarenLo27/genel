@@ -5,23 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manipulando Imagenes</title>
-   <link rel="stylesheet" href="css/manipulando_imagenes.css">
+    <link rel="stylesheet" href="css/manipulando_imagenes.css">
     <script src="js/manipulando_imagenes.js"></script>
 </head>
 <body>
  <header>
-     <h3>Copia Netflix</h3>
-     <div >
-        <img id="toto" src="img/totoro.jpg" width="800px"  height="600px">
-    </div>
-
      <div>
+        <h3 class="logo">Netflix</h3>
+        <img id="gibli" src="img/Studio-Ghibli1000.jpg" alt="estudio" width="2000 px"><br>
 
-    <img id="chijiro" src="img/descarga.jpg" onmouseover="intercambiar();">
-    
-    <img id="helo" src="img/images.jpg" onmouseover="interConArg(id, '../img/descarga.jpg')">
-    
-</div>
-</header>
+        <img  id="toto" onmouseover="cambiarImg('img/viaje_totoro1920x850.jpeg')" src="img/totoro.jpg" alt="totoro" width="410px">
+
+        <img  id="chiji" onmouseover="cambiarImg('img/chihiro_1920x1037.jpeg')"  src="img/descarga.jpg" alt="chijiro">
+
+        <img  id="helo" onmouseover="cambiarImg('img/halo1200x675.jpeg')" src="img/images.jpg" alt="helo">
+
+        <img  id="mono" onmouseover="cambiarImg('img/mononoke2560x1600.jpeg')" src="img/mononoke.jfif" alt="mononoke">
+
+        <img  id="kiki" onmouseover="cambiarImg('img/kiki_1280x688.jpeg')" src="img/kiki.jpg" alt="domicilio" width="210px">
+
+        <img  id="castillo" onmouseover="cambiarImg('img/castilloambulante_1366x780.jpeg')" src="img/castilloambulante.jpg" alt="ambulante" width="210px">
+
+        <img  id="cielo" onmouseover="cambiarImg('img/cielo_1280x720.jpeg')" src="img/cielo.jfif" alt="castillo" >
+
+        <img  id="nau" onmouseover="cambiarImg('img/nausica_2000x20.jpeg')" src="img/nausica.jfif" alt="sica" width="210px">
+    </div>
 </body>
 </html>

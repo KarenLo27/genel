@@ -1,3 +1,3 @@
-function intercambiar(){
-    document.getElementById("imagenPr").src = "../img/supra2.jpeg"
+function cambiarImg(imgPrincipal){
+    document.getElementById("gibli").src = imgPrincipal;
 }

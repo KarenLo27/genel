@@ -1,5 +1,6 @@
 body {
     cursor: pointer;
+    background-color: black;
     
 }
 .hidden {
@@ -14,5 +15,15 @@ div {
 .imgPrincipal{
     max-width: max-content;
     margin-top: 15px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.logo{
+    color: red;
+    font-size: 6em;
     
 }
