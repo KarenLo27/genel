@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactenos</title>
+    <link rel="stylesheet" href="css/style.css">  
+    <link rel="stylesheet" href="css/Contacto.css"> 
+    <script>
+        function validacion(){
+
+             var formvalido = true;
+
+             var nom = document.getElementById("Nombres").value;
+             if(nom == null   ||  nom.length ==0){
+                 alert ("Los espacios no deben ir vacios ");             
+                 formvalido = false ; 
+                 }
+                 var apelli = document.getElementById("apellidos").value;
+             if(apelli == null   ||  apelli.length ==0){
+                 alert ("Los espacios no deben ir vacios ");             
+                 formvalido = false ; 
+                 }
+                 var preg = document.getElementById("Pregunta").value;
+              if(preg  == null   ||  preg.length ==0){
+                 alert ("Los espacios no deben ir vacios ");             
+                 formvalido = false ; 
+                 } 
+                 var radioseleccionado = false;
+                 var gen = document.getElementByName("Genero");
+              for(let index = 0;  index < gen.length; index++){
+                 if(gen[index].checked){
+                     radioseleccionado = true;
+                 }
+                }
+                if(!radioseleccionado)
+                 {
+                
+                 alert ("Los espacios no deben ir vacios ");             
+                 formvalido = false ; 
+                 }   
+                
+           
+             return formvalido;
+        }
+    </script>
+</head>
+<body>
+<h1>Contactenos</h1>
+<form action="Confirmacion.html" method="GET" onsubmit="return validacion();">
+    <fieldset>
+        <legend>Ingrese la informaion</legend>
+    Por favor, ingrese sus nombres. <br>
+Nombre :<input type="text" name="Nombres"><br><br>
+Por favor, ingrese sus apellidos. <br><br>
+Apellido:<input type="text" name="apellidos"><br><br>
+Ingrese su peticion, queja o reclamo. <br>
+Pegunta :<textarea name="Pregunta"  cols="40" rows="5"></textarea><br><br>
+Genero<br>
+<input type="radio" name="Genero" value="Masculino">Femenino<br>
+<input type="radio" name="Genero" value="Femenino">Masculino<br>
+<input type="radio" name="Genero" value="Indefinido">Indefinido<br><br>
+Tipo de bicicleta de interes <br>
+<input type="checkbox" name="TIPO BICI" value="wheeled"> Montain bike <br>
+<input type="checkbox" name="TIPO BICI" value="ruta"> Carrera <br>
+<input type="checkbox" name="TIPO BICI" value="mtb"> Todo terreno <br>
+<input type="checkbox" name="TIPO BICI" value="electrica"> electrica <br><br>
+Ciudad <br>
+<select name="Municipio" >
+    <option value="Neiva">Neiva</option><br>
+    <option value="Pitalito">Pitalito</option><br>
+    <option value="San Agustin">San Agustin</option><br>
+    <option value="Isnos">Isnos</option><br>
+    <option value="Palestina">Palestina</option><br>
+    <option value="Acevedo">Acevedo</option><br>
+    <option value="Timana">Timana</option><br>
+    <option value="Salado blanco">Salado blanco</option><br>
+</select><br><br>
+<input type="submit" value="ENVIAR">
+</fieldset>
+</form>
+<a href="index.html">Volver a la pagina principal</a>
+</body>
+    </html>

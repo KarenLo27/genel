@@ -1,0 +1,14 @@
+
+#main{
+    background-image: url("../img/login.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 95vh;
+    background-position: top right;
+    background-size: 10%;
+}
+body{
+    background-image: url("../img/Machu.jpg");
+    background-repeat: no-repeat;
+    
+}

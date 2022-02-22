@@ -1,0 +1,61 @@
+
+body{
+    background-color: #252528;
+
+}
+ul{
+    list-style: none;
+    margin-top: 60px;
+}
+.fas{
+    color: grey;
+    font-size: 1.7em;
+}
+nav{
+background-color:seagreen;
+position:absolute;
+height: 100%;
+padding-right: 2em;
+z-index: 5;
+left: -270px;
+transition: all .3s;
+}
+a{
+    color: honeydew;
+text-decoration: none;
+    }
+    .fa-bars{
+        position: absolute;
+       top: 1.5em;
+       left: 2em;
+       cursor: pointer;
+
+    }
+
+.fas,.fab{
+    color: honeydew;
+    font-size: 1.7em;
+    margin-right: 0.4em;
+    
+}
+li{
+    padding: 1.7em 0.5em;
+}
+.mostrar-nav{
+    left:0 ;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    transition: all .5s;
+}
+.menu li{
+    box-shadow: 3px 0 rgb(255, 255, 255, 2) inset ;
+}
+h1, article{
+    font-size: 1.5em;
+    text-align: justify;
+    margin: 5em;
+    line-height: 1.4em;
+}

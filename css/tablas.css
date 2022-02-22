@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    display: block;
+    margin: 0 auto 0;
+    text-align: center;
+    width: 52%;
+    font-size: 1.5em;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+th{
+    border: 3px solid rgb(200, 200, 200);
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    
+}
+.head-netflix{
+    background-color: rgb(228,16,20);
+    color: white;
+    border: 1px solid rgb(228,16,20);
+}
+.head-hd{
+    background-color: rgb(255,184,0);
+    color: white;
+    border: 1px solid rgb(255,184,0);
+}
+.head-ultra{
+    background-color: rgb(250,120,34);
+    color: white;
+    border: 1px solid rgb(250,120,34);
+}
+.head-smart, .head-smart-sub{
+background-color: rgb(0,112,199);
+color: white;
+border: 1px solid rgb(0,112,199);
+}
+.head-smart-sub{
+    font-size: .6em;
+}
+.head-basico{
+background-color: rgb(19,25,33);
+color: white; 
+border: 1px solid rgb(19,25,33);
+}
+.head-estandar{
+background-color: rgb(59,89,152);
+color: white;
+border: 1px solid rgb(59,89,152);
+}
+.head-premium{
+background-color: rgb(28,93,131);
+color: white;
+border: 1px solid rgb(28,93,131);
+}

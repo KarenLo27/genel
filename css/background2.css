@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#nav-bar{
+   width: 100%;
+    position:absolute;
+}
+img-principal{
+    width: 100%;
+}
+ul{
+    text-align: right;
+}
+li{
+    display: inline-block;
+    font-size: 1.8em;
+    padding: 1em;
+    background-color: chartreuse;
+}
+p{
+    font-size: 1.8em;
+    text-align: justify;
+}
+#contein-maind{
+    margin: 4em 2em;
+}
+a{
+    text-decoration: none;
+}
