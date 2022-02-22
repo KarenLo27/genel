@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipular</title>
+    <script src="js/manipularimagenes.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Estudio Ghibli</h2>
+    <img id="img-gibli" src="img/Studio-Ghibli.jpg" 
+    alt="ghibli" onmouseover= "interCambioImagenes(id, 'img/Studio-Ghibli1000.jpg.');"
+    onmouseleave="retornoImagen()";><br>
+
+    <img  id="img-totoro" onmouseenter="ocultarImagen()" 
+    onmouseleave="mostrarImagen()" src="img/totoro.jpg" alt="totoro">
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/29_configurar_estilos.js"></script>
+    <title>Estilos</title>
+</head>
+<body>
+    <h1>Configurando Estilos Javascript</h1>
+    <p id="parrafo-principal" onmouseover="fuenteGrande();">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident tenetur eligendi non atque est, nam quibusdam sint esse commodi fugit quo asperiores cum minima repellendus explicabo inventore error ea libero.</p>
+    <p id="parrafo-dos"  onmouseover="fuenteEspecial();">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati officiis praesentium excepturi, et vitae vero perspiciatis
+         nesciunt ipsum eveniet assumenda itaque asperiores. Ipsam similique 
+         esse illum nobis asperiores quo eaque? Deleniti aspernatur doloremque, 
+         laudantium reiciendis ea quod nobis non beatae veritatis facilis accusamus commodi 
+         consectetur perspiciatis explicabo repellendus dicta assumenda.
+    </p>
+    <h2>Imagen desaparece cuando se pasa el mouse encima</h2>
+    <img id=" Ghibli1" src="img/Studio-Ghibli.jpg" alt="Ghibli" onmouseover="imgInvisible();"
+    onmouseleave="imgVisible();" >
+    <h2>Imagen se mueve</h2>
+    <img id=" studio2"src="img/Studio-Ghibli1000.jpg" alt="studio" onmouseover="ConfigurarImagen();"
+    onmouseleave="restablecerMargenes();">
+    <h2>Se mueve hacia la derecha</h2>
+    <img id=" totoro3"src="img/totoro.jpg" alt="totoro" onmouseover="flotarDerecha();" 
+    onmouseleave="flotarIzquierda();">
+</body>
+</html>
