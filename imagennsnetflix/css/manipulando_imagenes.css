@@ -1,0 +1,18 @@
+body {
+    cursor: pointer;
+    
+}
+.hidden {
+    display: none;
+}
+h3 {
+    text-align: center;
+}
+div {
+    border-radius: 1%;
+}
+.imgPrincipal{
+    max-width: max-content;
+    margin-top: 15px;
+    
+}
