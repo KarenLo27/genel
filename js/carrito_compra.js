@@ -1,50 +1,53 @@
 "use strict"
-let valorunico = 3550;
+/* let valorunico = 3550; */
 
-calcularSubtotal();
-valorIndividual();
-infoCantidad();
+/* calcularSubtotal(); */
+/* valorIndividual(); */
+/* infoCantidad(); */
 
 function valorIndividual() {
     let valorUnita = new Intl.NumberFormat('es-Es').format(valorunico);
-    document.getElementById("precioUnitario").innerHTML = valorUnita;
+    document.getElementById("precioUnitario").innerHTML.valorUnita;
 }
 function sumarPedido(){
     let cantidadActual = document.getElementById("valor").innerHTML;
-    let cantidadInt = number(cantidadActual);
-    if (cantidadInt > 0){
-        let restar = document.getElementById("valor").innerHTML = cantidadInt -1;
+    let cantidadInt = Number(cantidadActual) + 1;
+    document.getElementById("valor").innerHTML = cantidadInt;
+
+    /* if (cantidadInt > 1){ 
+        let restar = document.getElementById("valor").innerHTML.cantidadInt ;
 
     }else{
-        let restar = document.getElementById("valor").innerHTML = cantidadInt;
+        let restar = document.getElementById("valor").innerHTML.cantidadInt;
+        
 
-    }
-    calcularSubtotal();
-    infoCantidad();
+    } */
+    /* calcularSubtotal();
+    infoCantidad(); */
 }
-let subTotal = 0;
+/* let subTotal = 0; */
 function calcularSubtotal(){
     document.getElementById("precioUnitario").innerHTML;
     let totalUnidades = document.getElementById("valor").innerHTML;
     let vSubtotal = valorunico * Number(totalUnidades);
     let vSubtotalFormta = new Intl.NumberFormat('es-Es').format(vSubtotal)
-    document.getElementById("subtotal").innerHTML = vSubtotalFormta;
-    /*alert("totalUnidades"); */
+    document.getElementById("subtotal").innerHTML.vSubtotalFormta;
+    alert("totalUnidades"); 
 
 }
 /*Validad la cantidad de productos para el texto */
-/*Funtion infoCantidades(){
+function infoCantidades() {
     let cantidadProducto = document.getElementById("valor").innerHTML;
     let numeroEntero = cantidadProductos;
-    document.getElementById("cantidad").innerHTML = numeroEntero;
+    document.getElementById("cantidad").innerHTML.numeroEntero;
     validarTextoInfo();
 
-}*/
+}
 /*Validar la cantidad parra definir singular o plural*/
 function infoCantidades(){
     /* Obtener el numero de unidades*/ 
     let cantidadProductos = document.getElementById("valor").innerHTML;
-    /* Condicional... si cantidad producto == a 1 entonces productos, si o no produstos.*/
+    /* Condicional... si cantidad producto == a 1 entonces productos, si o no productos.*/
     if (cantidadProductos == 1){
         document.getElementById("cantidad").innerHTML = cantidadProductos.toString() + "Producto)";
 
