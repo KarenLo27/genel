@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/carrito_compra.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Carrito</title>
+</head>
+<body>
+    <h1>Carrito</h1>
+    <br><br><br>
+ <div class="contenedor">
+     <div class="subtotal">Subtotal--</div>
+     <div id="subtotal" class="precio">$</div>
+     <div class="pedido">Proceder al pago( <label id="cantidad"></label><!--<span>_</span> <label id="texto">)</label> --></div>
+     <div class="item3" ><img src="img/bicikaren225x225.jpg" alt=""></div>
+     <div class="item6">Cicla Javascritp</div>
+     <div class="itemautor">por Karen Cordoba</div>
+     <div class="marco">Marco negro con verde fluorecente</div>
+     <div id="precioUnico" class="precio2"></div>
+     <div class="cantidad">
+<input id="resta" type="button" value="-" onclick="restarPedido()">
+<label id="valor">1</label>
+<input id="suma"  type="button" value="+" onclick="sumarPedido()">
+     </div>
+     <div><input class="eliminar" type="button" value="Eliminar"></div>
+     <div class="item4"><input type="button" value="Guardar para mas tarde" class="guardar"></div>
+ </div>
+ <script src="js/carrito_compra.js"></script>
+</body>
+</html>
