@@ -1,9 +1,4 @@
 "use strict"
-/* let valorunico = 3550; */
-
-/* calcularSubtotal(); */
-/* valorIndividual(); */
-/* infoCantidad(); */
 
 function valorIndividual() {
     let valorUnita = new Intl.NumberFormat('es-Es').format(valorunico);
@@ -14,18 +9,8 @@ function sumarPedido(){
     let cantidadInt = Number(cantidadActual) + 1;
     document.getElementById("valor").innerHTML = cantidadInt;
 
-    /* if (cantidadInt > 1){ 
-        let restar = document.getElementById("valor").innerHTML.cantidadInt ;
-
-    }else{
-        let restar = document.getElementById("valor").innerHTML.cantidadInt;
-        
-
-    } */
-    /* calcularSubtotal();
-    infoCantidad(); */
 }
-/* let subTotal = 0; */
+
 function calcularSubtotal(){
     document.getElementById("precioUnitario").innerHTML;
     let totalUnidades = document.getElementById("valor").innerHTML;

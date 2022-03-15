@@ -10,11 +10,25 @@
     <title>Tabla</title>
 </head>
 <body>
-    
-    <h1>Registro de Productos</h1>
+     <div class="content">      
+        <form >
+            <fieldset>
+                <h1>Registro de Productos</h1>
+                <div class="formulario">
+                    <label >Codigo del producto </label>
+                    <input id="codigo"> <br><br>
+                    <label >Descripcion</label>
+                    <input id="descripcion"><br><br>
+                    <label >Valor Unitario</label>
+                    <input id="valorUnitario">
+                    <label >Unidades en Stock</label>
+                    <input id="stock"><br><br>
     <input  type="button" onclick="cargarProducto();" value="Crear Producto">
-    <div id="table-js">
-    </div>
+    </div>                      
+            </fieldset>
+        </form>     
+<div id="table_js"> </div> 
+</div> 
    
 </body>
 </html>
