@@ -39,3 +39,21 @@ function mostrarVehiculo(){
   nodoImagen.setAttribute("src","img/renault.jpg");
   
 }
+window.addEventListener("keydown", function(event){
+let busqueda = this.document.getElementById("textoBusqueda").value;
+if(event.key == "Enter"){
+  limpiarVentana();
+  if(busqueda == "Mazda 3") {
+    mostrarVehiculo(auto2);
+    mostrarVehiculo(auto1);
+    mostrarVehiculo(auto3);
+    mostrarVehiculo(auto4);
+  }
+  else if (busqueda == "Toyota Corolla") {
+    mostrarVehiculo(auto5);
+  }
+  else{
+    this.alert("No se han encontrado coincidencias");
+  }
+}
+});
