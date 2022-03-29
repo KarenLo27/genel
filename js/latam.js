@@ -8,3 +8,6 @@
     "destino": "CTG",
     "Precio": 37500,
  }];
+
+ functio
+
