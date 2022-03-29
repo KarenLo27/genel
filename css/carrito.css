@@ -1,0 +1,69 @@
+.container {
+  width: 450px;
+  height: 390px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  border: solid 1px black;
+}
+.boton {
+  margin-top: 10px;
+}
+.boton1{
+  text-align: center;
+  width: 200px;
+  border-radius: 8px;
+  float: right;
+  margin-left: 20px;
+  border: 1px solid black;
+  background: none;
+  cursor: pointer;
+}
+#aumentar, #disminuir{
+  content: "\002B";
+  font-size: 30px; 
+  border: none;
+}
+span {
+  font-size: 20px; 
+}
+input {
+  font-size: 14px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border: none;
+}
+.box1 {
+  background-color: yellow;
+  padding-top: 3px;
+  text-align: center;
+  border-radius: 6px;
+  width: 90%;
+  height: 30px;
+  padding: 10 auto;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.imagen {
+  padding: 9px;
+  display: inline-block;
+}
+.texto {
+  font-weight: bold;
+  font-size: .9em;
+  float: right;
+  width: 240px;
+  height: 40px;
+  padding: 10px;
+  text-align: left;
+}
+#valorUnitario {
+  font-size: 1.7em;
+  float: right;
+  width: 200px;
+  height: 40px;
+  padding: 9px;
+  text-align: left;
+}
