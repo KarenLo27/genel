@@ -14,6 +14,7 @@ header{
 .logolatam{
     padding:10px;
     cursor: pointer;
+  
 }
 .fa-bars{
     display: flex;
@@ -22,6 +23,7 @@ header{
     cursor: pointer;
    margin-left: 550px;
    margin-top: 20px;
+   color:white ;
 }
 
 .container{
@@ -54,6 +56,7 @@ font-family: 'Noto Sans KR', sans-serif;
 }
 .labelIda{
     grid-area: styleIda;
+    background-color:rgb(67, 0, 210) ;
 }
 .TextoDuracion{
     grid-area: styleTextoDuracion;
@@ -92,6 +95,7 @@ font-family: 'Noto Sans KR', sans-serif;
     grid-area: style-precio;
     font-family: 'Lato', sans-serif;
 font-family: 'Noto Sans KR', sans-serif;
+color: rgb(67, 0, 210);
 } 
 .linea{
     grid-area: linea;

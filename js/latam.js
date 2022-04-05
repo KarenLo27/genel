@@ -12,8 +12,8 @@ let horaLlegada3 = new Date(2022, 4, 5, 0, 0, 0);
 let vuelo=[{
     "origen": "BOG",
     "destino": "CTG",
-    "horaIda1": horaIda.getHours()+ ":" + horaIda.getMinutes(),
-    "horaLlegada1": horaLlegada.getHours()+ ":" + horaLlegada.getMinutes(),
+    "horaIda": horaIda.getHours()+ ":" + horaIda.getMinutes(),
+    "horaLlegada": horaLlegada.getHours()+ ":" + horaLlegada.getMinutes(),
     "duracion": "Duracion",
     "precio": 5600000,
    
@@ -48,19 +48,20 @@ class Vuelos{
         this.destino= destino;
         this.horaIda= horaIda;
         this.horaLlegada= horaLlegada;
-        this.precio= precio;
         this.duracion= duracion;
+        this.precio= precio;
+        
     }
 }
 function mostrarVuelos() {
     for (let i = 0; i < vuelo.length; i++) {
-    CargarVuelos(vuelo[i].origen, vuelo[i].destino,vuelo[i].precio,vuelo[i].horaIda, vuelo[i].horaLlegada,vuelo[i].duracion);
+    CargarVuelos(vuelo[i].origen, vuelo[i].destino,vuelo[i].horaIda, vuelo[i].horaLlegada,vuelo[i].duracion,vuelo[i].precio);
     }
 }
 
 
 
-    function CargarVuelos(origen, destino, precio,horaIda, horaLlegada, duracion){
+    function CargarVuelos(origen, destino,horaIda, horaLlegada, duracion, precio){
 
         let contenedor=document.createElement("div");
         let contenMain=document.getElementById("main_content");
@@ -87,13 +88,13 @@ function mostrarVuelos() {
     
         let LabelIda=document.createElement("label");
         contenedor.appendChild(LabelIda);
-        let nodoIda = document.createTextNode(horaIda+"11:42 am");
+        let nodoIda = document.createTextNode(horaIda+"");
         LabelIda.appendChild(nodoIda);
         LabelIda.setAttribute("class", "labelIda");
     
         let LabelLlegada=document.createElement("label");
         contenedor.appendChild(LabelLlegada);
-        let nodoLlegada = document.createTextNode(horaLlegada+ " " + "2:42pm");
+        let nodoLlegada = document.createTextNode(horaLlegada+ " " + "");
         LabelLlegada.appendChild(nodoLlegada);
         LabelLlegada.setAttribute("class", "labelLlegada");
     

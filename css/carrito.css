@@ -57,7 +57,7 @@ input {
   width: 240px;
   height: 40px;
   padding: 10px;
-  text-align: left;
+  text-align: right;
 }
 #valorUnitario {
   font-size: 1.7em;
