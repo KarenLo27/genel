@@ -6,7 +6,7 @@ body{
     background-color: whitesmoke;
 }
 header{
-    background-color: rgb(216, 19, 27);
+    background-color: rgb(27, 34, 120);
     display: grid;
     grid-template-columns: 1fr        1fr          1fr;
     grid-template-areas:    "logo      empty       menu";
@@ -36,7 +36,7 @@ header{
                    "style-VueloDirecto    style-VueloDirecto             style-precio"      55px/ 
                     1fr                      1fr                    1fr;
 }
-.csslabelEconomico{
+.labelEconomico{
     grid-area: styleEconomico;
     background-color: rgb(67, 0, 210);
     border-bottom-right-radius: 10px;
@@ -52,23 +52,23 @@ header{
 font-family: 'Noto Sans KR', sans-serif;
 
 }
-.csslabelSalida{
-    grid-area: styleSalida;
+.labelIda{
+    grid-area: styleIda;
 }
-.cssTextoDuracion{
+.TextoDuracion{
     grid-area: styleTextoDuracion;
     justify-content: center;
     align-items: center;
     display: flex;
     font-family: 'Lato', sans-serif;
 }
-.csslabelLlegada{
+.labelLlegada{
     grid-area: styleLlegada;
 } 
-.css-labelorigen{
+.labelorigen{
     grid-area: style-origen;
 }
-.csslabelDuracion{
+.labelDuracion{
     grid-area: styleDuracion;
     display: flex;
     justify-content: center;
@@ -78,17 +78,17 @@ font-family: 'Noto Sans KR', sans-serif;
     font-family: 'Lato', sans-serif;
 font-family: 'Noto Sans KR', sans-serif;
 }
-.css-labeldestino{
+.labeldestino{
     grid-area: style-destino;
     font-family: 'Lato', sans-serif;
 font-family: 'Noto Sans KR', sans-serif;
 }
-.css-VueloDirecto{
+.VueloDirecto{
     grid-area: style-VueloDirecto;
     font-family: 'Lato', sans-serif;
 font-family: 'Noto Sans KR', sans-serif;
 }
-.css-labelprecio{
+.labelprecio{
     grid-area: style-precio;
     font-family: 'Lato', sans-serif;
 font-family: 'Noto Sans KR', sans-serif;
@@ -96,5 +96,5 @@ font-family: 'Noto Sans KR', sans-serif;
 .linea{
     grid-area: linea;
     border: none;
-    border-bottom: solid 2px rgb(198, 12, 48);
+    border-bottom: solid 2px rgb(27, 34, 120);;
 }
