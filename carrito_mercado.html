@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="icons/all.css">
+    <title>Mercado libre</title>
     <link rel="stylesheet" href="css/carrito_mercado.css">
-    <title>Carrito mercado libre</title>
+    <script src="https://kit.fontawesome.com/47910d8a72.js" crossorigin="anonymous"></script>
 </head>
-<body> 
-    <header>
-        <label class="icono-menu" onclick="mostrarMenu()"><i class="fas fa-bars"></i></label><br><br>
-        <label class= "icono-carro" ><i class="fa-solid fa-cart-shopping"></i></i></label>
-    </header>
-    <div id="container"></div>
-    <div class="main-content">
-
-
+<body>
+    <div class="header">
+        <div class="logoMenu">
+            <i class="fa-solid fa-handshake-simple"></i>
+        </div>
+        <div class="barraBusqueda">
+            <input id="textoBusqueda" type="text" placeholder="Busca aqui el producto de tu preferencia">
+        </div>
+        <div class="logoCarrito">
+            <i class="fas fa-shopping-cart"></i>
+        </div>
     </div>
-    <input class="guardar_productos" type="button" onclick="mostrarVehiculo();" value="Mostrar">
-
+    
+    <div class="mainContent" id="mainContent"></div>
+    
     <script src="js/carrito_mercado.js"></script>
 </body>
 </html>
