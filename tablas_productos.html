@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLA PRODUCTOS</title>
     <link rel="stylesheet" href="css/tabla_productos.css">
-    <script src="js/tabla_producto.js"></script>
-    
-    <title>Tabla</title>
+  
 </head>
 <body>
-     <div class="content">      
+    <div class="content">      
         <form >
             <fieldset>
                 <h1>Registro de Productos</h1>
                 <div class="formulario">
-                    <label >Codigo del producto </label>
+                    <label class="cod_procut" >Codigo del producto </label>
                     <input id="codigo"> <br><br>
-                    <label >Descripcion</label>
+                    <label class="cod_procut">Descripcion</label>
                     <input id="descripcion"><br><br>
-                    <label >Valor Unitario</label>
-                    <input id="valorUnitario">
-                    <label >Unidades en Stock</label>
+                    <label class="cod_procut">Valor Unitario</label>
+                    <input id="valorUnitario"><br><br>
+                    <label class="cod_procut">Unidades en Stock</label>
                     <input id="unidadStock"><br><br>
-    <input class="guardar_productos" type="button" onclick="validarTabla();" value="Cargar Producto">
-    </div>                      
+                     <input class="btn-cargar-producto" type="button" value="Cargar Producto" onclick="cargarProducto();"> 
+                     <input type="reset" value="Limpiar formulario" class="btn-cargar-producto" >
+         
+                </div>                      
             </fieldset>
         </form>     
-<div id="table-js"> </div> 
-</div> 
-   
+        <div id="table-js"> </div> 
+    </div>
+
+
+     <script src="js/tabla_producto.js"></script>
 </body>
-</html>
+</html

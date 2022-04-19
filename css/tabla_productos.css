@@ -1,43 +1,58 @@
-form {
-    width: 600px;
-    height: 210px;
-    margin: 0 auto;
-    padding: 10px 25px;
+ .container{
+    border: solid 1px;
     border-radius: 8px;
-    border: solid 1px ;
-  }
-h2 {
+    
+} 
+h1{
+    color: rgb(51, 223, 124);
+    font-size: 30px;
+}
+.content{
+    text-align: center;
+  
+}
+.cod_procut{
+    font-size: 25px;
+}
+
+.idProducto{
+    
+    height: 30px;
+    margin-bottom: 75px;
+  
+}
+.btn-cargar-producto{
+    background-color: rgb( 155, 89, 182 );
+    font-size: 22px;
+    text-shadow: 0em;
+    color: white;
+    border: rebeccapurple;
+    border-radius: 8em;
+}
+.table-style{
     text-align: center;
 }
-input {
-    padding: 2px;
+.formular{
+    background-color: rgb();
+    border-radius: 8px;
+
 }
-button {
-  width: 98%;
-  border: none;
-  border-radius: 5px;
-  font-size: 1em;
-  color: white;
-  margin: 10px;
-  padding: 4px;
-  background: rgb(0, 153, 255);
-}
-.table-style {
-    width: 1000px;
-    margin-top: 50px;
-    caption-side: bottom;
-    margin: auto;
-    border-collapse: collapse;
+.formulario{
     text-align: center;
-    border-radius: 0 0 10px 10px;
-}  
-tr, td, th {
-    border-bottom: 3px solid gray;
-    padding: 10px;
-    text-align: justify;    
 }
-td{
-    border-bottom: 1px solid #ccc;
-    text-align: center;
-    padding: 10px 20px 0 ;
-}
+table {
+    width: 100%;
+ }
+ th, td {
+    width: 22%;
+   text-align: left;
+   vertical-align: top;
+   border: 3px solid  rgb(88, 214, 141);
+   font-size: 22px;
+   border-collapse: collapse;
+   color: black;
+   background-color: rgb( 241, 196, 15 );
+   
+
+  
+ }

@@ -230,14 +230,14 @@ window.addEventListener("keydown", function(event) {
             mostrarVehiculo(auto, auto2, auto3);
         }
         else if (busqueda == "Mustang") {
-            mostrarYamaha(yamaha, yamaha2, yamaha3);}
+            mostrarYamaha(mustang1, mustang2, mustang3);}
 
         else {
-            alert("No se han encontrado resultados que coincidan con la busqueda");
+            //alert("No se han encontrado resultados que coincidan con la busqueda");
         } 
     }
 })
 
 function limpiarVentana () {
     document.getElementById("mainContent").innerHTML = "" ;
-}
+};
