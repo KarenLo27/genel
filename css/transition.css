@@ -10,7 +10,8 @@ transition: width 3s;
 .transition2{
     width: 150px;
     height: 150px;
-    background-image: url("https://picsum.photos/200/200");
+    /*background-image: url("https://picsum.photos/200/200");*/
+    background-color: brown;
     transition: background-color 5s; 
 }
 .transition2a:hover .transition2{
@@ -21,7 +22,8 @@ transition: width 3s;
 .transition3{
     width: 100px;
     height: 100px;
-    background-image: url("https://picsum.photos/200/200");
+    /*background-image: url("https://picsum.photos/200/200");*/
+    background-color: brown;
     transition: width 2s, height 4s;
 }
 .transition3:hover{
@@ -58,8 +60,51 @@ transition: width 3s;
     height: 300px;
     background-color: rgb(241, 196, 15);
     transition: transform 1s; 
-    transform: scale(0.1);
+    
+  
 }
 .transition7:hover{
     transform: translate(-60%, -60px);
+}
+.item{
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transform: background-color 2s;
+}
+.item:hover{
+    background-color: steelblue;
+   
+
+}
+.transition8{
+    width: 300px;
+    height: 300px;
+    background-color: crimson;
+    transition: transform 1s; 
+      
+}
+.transition8:hover{
+    transform: translate(200%, 200px);
+}
+.transform-hide{
+    position: absolute;
+    bottom: 40px;
+    right: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: indianred;
+    transition: width 600ms, height 600ms;
+    width: 300px;
+    height: 300px;
+}
+/*.transform-visible{
+    position: absolute;
+    bottom: 40px;
+    height: 10px;
+    background-color: blueviolet;
+    transition: width 600ms, height 600ms;
+    width: 300px;
+    height: 300px;
 }
