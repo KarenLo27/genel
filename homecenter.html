@@ -6,19 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/homecenter.css">
     <script src="https://kit.fontawesome.com/47910d8a72.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Homecenter</title>
 </head>
 <body>
-    <header>
-        <i class="fa-solid fa-bars" ></i>
+    <header><br>
+        <div class="barraBusqueda"></div>
+        <i class="fa-solid fa-bars" class="class-hamburger"></i>
         <img class="logolatam" width="200px" src="img/Logo_Homecenter.png" alt="logo">
-        <div class="barraBusqueda">
-            <input id="textoBusqueda" type="text" placeholder="Busca aqui el producto de tu preferencia">
+        
+            <input id="textoBusqueda"  class="class-text"  type="text"
+             placeholder="Busca aqui el producto de tu preferencia">
+             <img src="img/lupa.png" width="40px"  >
+             <i class="fas fa-shopping-cart"></i>
+        </div><br><br>
+        <div>
+             <img src="img/homecenter.png" alt="">
         </div>
     </header>
     <div id="pop-up" class="popUp-Invisible">
         <form>
-            <label id="botonCerrar" class="botonCerrarInvisible">X</label>
+            <label id="botonCerrar" class="botonCerrarInvisible">Chat de ventas <br>
+                Ingresa tus datos <br>
+            </label><br>
+            <label >
+                <input id="textoBusqueda"  class="class-name"  type="text"
+                placeholder="Nombres"><br><br>
+
+                <input id="textoBusqueda"  class="class-name"  type="text"
+                placeholder="Apellidos"><br><br>
+                <input id="textoBusqueda"  class="class-inquietud"  type="text"
+                placeholder="Inquietud"><br><br>
+                <button class="class-boton">Enviar Consulta</button>
+
+
+
+            </label>
+
         </form>
     </div>
     <input id="botonForm" class="botonKaren" type="button"  value="Karen">

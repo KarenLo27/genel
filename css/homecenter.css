@@ -1,9 +1,30 @@
-
+.class-text{
+    font-size: 20px;
+    width: 800px;
+    border-radius: 2em;
+}
+.class-hamburger{
+    font-size: 80px;
+    
+}
+.class-boton{
+    background-color: rgb(63, 153, 231);
+    text-align: center;
+}
+.class-inquietud{
+    padding: 30px;
+    text-align: right;
+}
+.class-name{
+    width: 200px;
+    border-radius: 1em;
+    
+}
 .popUp-Visible {
     position: fixed;
     bottom: 40px;
     right: 30px;
-    background-color: indianred;
+    background-color: white;
     width: 300px;
     height: 300px;
     transition: width 0.6s, height 0.6s;
@@ -14,7 +35,7 @@
     height: 0;
     bottom: 40px;
     right: 30px;
-    background-color: indianred;
+    background-color: white;
     transition: width 0.6s, height 0.6s;
 }
 .botonKaren{
@@ -24,6 +45,8 @@
 }
 .botonCerrarVisible {
     display: block;
+    text-align: center;
+    font-size: 20px;
 }
 .botonCerrarInvisible {
     display: none;
